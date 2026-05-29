@@ -58,7 +58,7 @@ Notes
 - Unit conversion logic is encapsulated in separate classes (LengthConverter, WeightConverter, TemperatureConverter, CurrencyConverter) that implement a common IUnitConverter interface.
 - UnitConversionManager.cs is responsible for orchestrating the conversion process by determining the appropriate converter based on the fromUnit and toUnit parameters and invoking the conversion method.
 - Logging, validations and error handling can be further enhanced for better maintainability and user experience. 
-- Additional : as the numeric value is part of the route, URL encoding may be required for some locales (for example, when using a comma as the decimal separator you may need to 
+- Additional : As the numeric value is part of the route, URL encoding may be required for some locales (for example, when using a comma as the decimal separator you may need to 
 - encode the comma or use the Accept-Language header appropriately).
 
 License
