@@ -62,4 +62,4 @@ Notes
 - encode the comma or use the Accept-Language header appropriately).
 
 License
-This workspace contains example/demo code. Modify and use as needed.
+This workspace contains demo code.
