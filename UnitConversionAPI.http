@@ -1,0 +1,16 @@
+@UnitConversionAPI_HostAddress = http://localhost:5229
+
+GET {{UnitConversionAPI_HostAddress}}/api/UnitConversion/5/kg/g
+Accept: application/json
+Accept-Language: en-US
+###
+
+GET {{UnitConversionAPI_HostAddress}}/api/UnitConversion/12.15/usd/inr/4
+Accept: application/json
+Accept-Language: en-US
+###
+
+GET {{UnitConversionAPI_HostAddress}}/api/UnitConversion/8600,15/g/kg/5
+Accept: application/json
+Accept-Language: fr-FR
+###
